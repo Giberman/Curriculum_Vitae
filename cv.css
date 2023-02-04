@@ -2,11 +2,14 @@
     box-sizing: border-box;
 }
 
+
 body{
   background-color: brown;
+  height: 100%;
 }
 
 header {
+  float: left;
   width: 100%;
   border-bottom:black 3px solid;
   border-top: black 3px solid;
@@ -20,11 +23,12 @@ header .menu {
 }
 
 .menu{
+    float: left;
     width: 100%;
     padding: 20px;
     background-color: black;
-    font-size: 150%;
-    text-align:right;
+    text-align: center;
+    font-size: 100%;
     font-family: 'Playfair Display', serif;
   }
 
@@ -35,7 +39,7 @@ header .menu {
 
 .datosp {
     width: 20%;
-    padding: 30px 30px 40px 30px;
+    padding: 30px 0px 40px 0px;
     margin-left: 2.5%;
     margin-right: 2.5%;
     margin-top: 2.9%;
@@ -49,7 +53,9 @@ header .menu {
 
   .main {
     width: 75%;
-    padding: 30px 60px 0px 150px;
+    display: grid;
+    padding: 30px 60px 140px 150px;
+    margin-bottom: -10%;
     float: left;
     text-align:justify;
     background-color:lightgray;
@@ -77,9 +83,11 @@ header .menu {
     border: #1c252b 1px solid;
   }
 
-  .datosp ul, h3 {
+  .datosp ul {
+    float: left;
     width: 100%;
     text-align: left;
+    padding-right: 30px;
   }
 
   .datosp .contact {
@@ -87,16 +95,13 @@ header .menu {
     list-style:none;
     }
 
-  .datosp .contact li i{
-margin-right: 3%;
-  }
-
-  
-  .menu a {
+  .menu ul li a {
+    display: flex;
+    justify-content: center;
+    font-size:x-large;
+    padding: 25px;
     width: 100%;
-padding: 50px;
-color: white;
-
+    color: white;
 }
 
 
@@ -104,12 +109,19 @@ color: white;
   border-radius: 10px;
 }
 
- a:link, a:visited {
+.menu ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+
+ .menu ul li a:link, a:visited {
   color: white;
   text-decoration:none; 
 } 
 
-a:hover {
+.menu ul li a:hover {
   color:#e74c3c;
 }
 
@@ -160,7 +172,7 @@ a:hover {
 
 .porfolio {
   position: relative;
-  margin-top: 10%;
+  margin-top: 5%;
   margin-left: 41%;
   margin-bottom: 3%;
 }
@@ -185,7 +197,13 @@ textarea {
   resize: none;
 }
 
-@media only screen and (max-width: 620px) {
+.divisor {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+
+@media only screen and (max-width: 768px) {
   /* For mobile phones: */
 
   .datosp {
@@ -202,7 +220,7 @@ textarea {
 
   .datosp ul {
     text-align: left;
-    padding-left: 0px;
+    padding-left: 50px;
   }
 
  #fotop{
@@ -239,7 +257,7 @@ padding: 5px 0px 0px 20px;
 text-align: center;
 }
 
-.menu a, iframe {
+.menu ul li a, iframe {
   display: none;
 }
 
@@ -249,11 +267,6 @@ text-align: center;
   padding-bottom: 15px;
 }
 
-.menu img {
-  margin-bottom: 10%;
-  width:160px; 
-  height:130px;
-}
 
 #myCarousel{
   position: relative;
@@ -266,6 +279,41 @@ text-align: center;
 .divisor {
   position: relative;
   margin-bottom: -170px;
+}
+
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1080px){
+
+.menu ul li a {
+ font-size: larger;
+}
+
+#logo{
+ display: none;
+}
+
+#fotop{
+ position: relative;
+ top: 10px; left: 0px;
+ width: 90%;
+ height: 90%;    
+}
+
+h1{
+ font-size: x-large;
+}
+
+h3 {
+ font-size: x-large;
+}
+
+.datosp ul, .contact{
+ font-size:70%;
+}
+
+.datosp {
+ padding-bottom: 30px;
 }
 
 }
