@@ -166,16 +166,15 @@ header .menu {
 } 
 
 .porfolio {
+  margin: auto;
   position: relative;
   margin-top: 5%;
-  margin-left: 41%;
   margin-bottom: 3%;
 }
 
 #myCarousel{
-  position: relative;
+  margin: auto;
   margin-bottom: 7%;
-  margin-left: 20%;
   width: 50%;
   border: #1c252b 1px solid;
 }
@@ -196,6 +195,30 @@ textarea {
   padding-right: 10px;
   padding-left: 10px;
 }
+
+.registro, .consulta, .busqueda, .listadodatos, .modifica {
+  color: white;
+  text-align: center;
+}
+
+.consulta {
+  padding-top: 10%;
+  text-decoration: underline;
+}
+
+.btn{
+  display: block;
+  margin: auto;
+}
+
+#listadomargen, #noexistemargen, .modifica{
+  padding-top: 10%;
+}
+
+.nuevomail, .viejomail{
+  font-size: larger;
+}
+
 
 
 @media only screen and (max-width: 768px) {
@@ -279,7 +302,6 @@ margin-left: -26%;
   margin-bottom: -170px;
 }
 
-
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1080px){
@@ -313,6 +335,13 @@ h3 {
 
 .datosp {
  padding-bottom: 30px;
+}
+
+#myCarousel{
+  margin: auto;
+  margin-bottom: 20%;
+  width: 90%;
+  border: #1c252b 1px solid;
 }
 
 }
