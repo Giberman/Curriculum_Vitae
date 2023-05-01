@@ -51,7 +51,6 @@ header .menu {
     font-family: 'Playfair Display', serif;
 }
 
-
   .main {
     width: 75%;
     display: grid;
@@ -97,7 +96,7 @@ header .menu {
     list-style:none;
     text-align: left;
     padding-right: 5px;
-
+    padding-left: 4%;
     }
 
   .menu ul li a {
