@@ -93,7 +93,7 @@ header .menu {
   .datosp .contact {
     width: 100%;
     list-style:none;
-    font-size:small;
+    font-size:87%;
     }
 
   .menu ul li a {
@@ -213,6 +213,12 @@ color:#e74c3c;;
     text-align: center;
 
   }
+
+  .datosp .contact {
+    width: 100%;
+    list-style:none;
+    font-size:100%;
+    }
 
   .datosp h3 {
     text-align: center;
