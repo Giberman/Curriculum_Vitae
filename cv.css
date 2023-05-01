@@ -200,6 +200,10 @@ textarea {
   padding-left: 10px;
 }
 
+.divisor #boton {
+  font-size: 100%;
+}
+
  ul .fgoldes:visited {
 color:#e74c3c;;
 }
