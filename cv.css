@@ -58,6 +58,7 @@ header .menu {
     margin-bottom: -10%;
     float: left;
     text-align:justify;
+    font-size:larger;
     background-color:lightgray;
     font-family: 'Playfair Display', serif;
   } 
