@@ -211,14 +211,9 @@ color:#e74c3c;;
    padding-top: 40%;
    margin-bottom: 3%;   
     text-align: center;
+    font-size: large;
 
   }
-
-  .datosp .contact {
-    width: 100%;
-    list-style:none;
-    font-size:100%;
-    }
 
   .datosp h3 {
     text-align: center;
