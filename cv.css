@@ -16,8 +16,8 @@ header {
 }
 
 header .menu {
-  border-bottom:slategray 10px solid;
-  border-top: slategray 10px solid;
+  border-bottom:bisque 10px solid;
+  border-top: bisque 10px solid;
 }
 
 .menu{
@@ -93,6 +93,7 @@ header .menu {
   .datosp .contact {
     width: 100%;
     list-style:none;
+    font-size:small;
     }
 
   .menu ul li a {
@@ -196,29 +197,9 @@ textarea {
   padding-left: 10px;
 }
 
-.registro, .consulta, .busqueda, .listadodatos, .modifica {
-  color: white;
-  text-align: center;
+ ul .fgoldes:visited {
+color:#e74c3c;;
 }
-
-.consulta {
-  padding-top: 10%;
-  text-decoration: underline;
-}
-
-.btn{
-  display: block;
-  margin: auto;
-}
-
-#listadomargen, #noexistemargen, .modifica{
-  padding-top: 10%;
-}
-
-.nuevomail, .viejomail{
-  font-size: larger;
-}
-
 
 
 @media only screen and (max-width: 768px) {
@@ -301,6 +282,7 @@ margin-left: -26%;
   position: relative;
   margin-bottom: -170px;
 }
+
 
 }
 
