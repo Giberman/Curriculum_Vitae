@@ -46,6 +46,7 @@ header .menu {
     border: #1c252b 2px solid;
     float: left;
     background-color: bisque;
+    font-size:larger;
     text-align: center;
     font-family: 'Playfair Display', serif;
 }
@@ -94,6 +95,9 @@ header .menu {
   .datosp .contact {
     width: 100%;
     list-style:none;
+    text-align: left;
+    padding-right: 5px;
+
     }
 
   .menu ul li a {
@@ -211,7 +215,7 @@ color:#e74c3c;;
    padding-top: 40%;
    margin-bottom: 3%;   
     text-align: center;
-    font-size: large;
+    font-size:large;
 
   }
 
@@ -221,7 +225,7 @@ color:#e74c3c;;
 
   .datosp ul {
     text-align: left;
-    padding-left: 50px;
+    padding-left: 40px;
   }
 
  #fotop{
